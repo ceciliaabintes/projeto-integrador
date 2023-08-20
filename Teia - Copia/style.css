@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@500&display=swap');
+*{
+box-sizing: border-box;
+}
+.body{
+margin: 0%;
+}
+
+.menu{
+    display: inline-block;
+ }
+
+.logo{
+width: 100px;
+height: 115px;
+margin-left: 18px;
+}
+
+.navbar{
+display:flex;
+margin-left: 850px;
+
+}
+
+.botao{
+    background-color: chocolate;
+   padding: 15px;
+   margin: 15px;
+   text-decoration: none;
+   color: aliceblue;
+   border-radius: 10px;
+   margin-top: 10px;
+   font-family: 'Roboto Mono', monospace;
+   ;
+}
+.botao2{
+border-top: 5px solid chocolate;
+margin-top: 10px;
+padding: 15px;
+margin: 15px;
+text-decoration: none;
+color: black;
+font-family: 'Roboto Mono', monospace;
+}
+
+.caixa{ 
+border-top: 5px solid chocolate;
+padding:10px;
+width: 500px;
+height: 500px;
+margin-left: 450px;
+border-radius: 5px;
+margin-top: 50px;
+box-shadow:5px 5px 5px 5px gray;
+}
+
+.conteudo{
+    position: absolute;
+text-align: center;
+padding-left: 0px;
+font-family: 'Roboto Mono', monospace;
+}
+
+#novaconta{
+align-items:end;
+display:flex ;
+text-decoration: underline chocolate;
+color: black;
+}
+
